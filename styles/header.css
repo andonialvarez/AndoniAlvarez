@@ -1,0 +1,82 @@
+.header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+.header > .center-column h1 {
+    color: #cea135;
+    font-size: 0.9em;
+    font-family: "lato", sans-serif;
+}
+.header > .center-column > .nav-links {
+    color: white;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.header > .center-column > .nav-links > .spark {
+    color: grey;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+.header > .left-column {
+    width: 250px;
+}
+
+.header > .left-column > .logo img {
+    width: 60%;
+}
+.header > .right-column {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+}
+.header > .right-column > .link {
+    background-color: grey;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    
+}
+
+.header > .right-column i {
+    color: grey;
+    font-size: 1.5em;
+}
+
+.header > .right-column > .link-spark h1 {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.header > .right-column > .link-spark i {
+    color: green;
+}
+.header > .right-column > .link-spark {
+    background-color: grey;
+    padding: 12.5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    border-radius: 4px;
+}
+.header > .center-column > .nav-links i {
+    color: grey;
+    font-size: 0.8rem;
+    margin-left: -20px;
+    margin-bottom: -5px;
+}
